@@ -3,7 +3,7 @@ provider "google" {
   region  = var.region
 }
 
-resource "google_compute_engine" "example" {
+resource "google_compute_instance" "example" {
   name = "example-instance"
   machine_type = "e2-micro"
   zone = var.zone
