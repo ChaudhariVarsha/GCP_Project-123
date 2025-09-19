@@ -16,6 +16,7 @@ resource "google_computea_engine" "example" {
   network_interface {
     network = "default"
     access_config {}
+  }
 }
 
 resource "google_storage_bucket" "example" {

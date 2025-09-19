@@ -1,13 +1,13 @@
 variable "region" {
   description = "the region to deploy resources"
   type = string
-  default = us-central1
+  default = "us-central1"
 }
 
-variable "zone {
+variable "zone" {
   description = "zone to deploy resources"
   type = string
-  default = us-central1-a 
+  default = "us-central1-a"
 }
 
 variable "project_id" {
